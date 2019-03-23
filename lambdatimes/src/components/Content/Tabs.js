@@ -17,7 +17,7 @@ const Tabs = props => {
  Tabs.propTypes = {
   tabs : PropTypes.arrayOf(PropTypes.string),
   selectTabHandler : PropTypes.func,
-  selectTab : PropTypes.func
+  selectTab : PropTypes.string
 }
 
 // Make sure to use PropTypes to validate your types!
