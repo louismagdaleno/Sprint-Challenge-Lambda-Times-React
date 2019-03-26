@@ -29,9 +29,13 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+PropTypes are used to typecheck data elements being passed around as props.  We need to ensure that the data being passed to our props is the data type that the prop was designed for. 
 - [ ] Describe a life-cycle event in React?
+Life cycle events are used to trigger changes in the state of a component, for example - mounting, data change, or unmounting. We can write code that will execute whenever a life cycle change occurs by taking advantages of life cycle methods.
 - [ ] Explain the details of a Higher Order Component?
+HOCs are functions that accept and return functions. Specifically, a HOC will accept a component and then return a new component that wraps the passed in component.
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+In line styles, reactstrap, css modules, sass, styled components. Reactstrap offers fully responsive modules ready to go, which make styling a website quick and easy. css modules offer scoped styling so that css written within a component won't overwrite the css of another component.  sass and styled components offer nesting and pseudo selectors that preprocessor users are accustomed to.
 
 ## Project Setup
 
@@ -54,11 +58,11 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Go through the `Tabs`, `Tab`, `Cards`, and `Card` components following the instructions, and passing data and props to get the tabs and cards to appear on the screen.
-- [ ] Once the Tabs and Cards are rendering to the screen complete the `changeSelected` and `filterCards` functions in the `Content` component.
-- [ ] You should now be able to filter cards using your tabs!
-- [ ] Make sure all of your props being passed are validated using PropTypes.
-- [ ] Find the `TopBar` and `Header` components. Convert these two components to Styled Components. You should not have any `className` props when you are finished.
+- [X] Go through the `Tabs`, `Tab`, `Cards`, and `Card` components following the instructions, and passing data and props to get the tabs and cards to appear on the screen.
+- [X] Once the Tabs and Cards are rendering to the screen complete the `changeSelected` and `filterCards` functions in the `Content` component.
+- [X] You should now be able to filter cards using your tabs!
+- [X] Make sure all of your props being passed are validated using PropTypes.
+- [X] Find the `TopBar` and `Header` components. Convert these two components to Styled Components. You should not have any `className` props when you are finished.
 
 ## Stretch Challenge
 
